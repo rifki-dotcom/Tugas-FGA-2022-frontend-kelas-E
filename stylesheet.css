@@ -1,0 +1,183 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+  
+}
+a{
+  text-decoration: none;
+}
+.clear{
+  clear: left;
+}
+
+/*header*/
+
+.header{
+    background-color:#000000;
+    color:#fff;
+    height:90px;
+
+  }
+  .logo{
+    font-size:36px;
+  padding:20px 40px;
+    float:left;
+    color:#fff;
+  }
+  .menu li{
+    float:left;
+    padding: 33px 20px;
+  }
+  .menu a{
+    color: #fff;
+    opacity: 0.9;
+  }
+  .menu a:hover{
+    opacity: 1;
+  }
+.header-kanan li{
+    float:right;
+    padding: 33px 20px;
+}
+  /*header*/
+  /*landing-page*/
+
+@keyframes h1-message{
+    from{color:red;}
+    to{color:black;}
+}
+.container{
+    max-width: 1170px;
+    padding:0 10px;
+    margin:0 auto;
+}
+.message-section{
+    padding:200px 0 250px 0;
+    margin:80px 50px 50px 50px;
+    background-image: url(gambar/bgbaju3.jpg);
+    background-size: cover;
+    color: #2d3436;
+    text-align: center;
+}
+.message-wrapper{
+    background: #b2bec3;
+    border-radius: 30px;
+    margin:0 200px;
+    padding-bottom:20px;
+    opacity: 0.9;
+}
+.message-section h1{
+    font-size: 55px;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+    animation-name: h1-message;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.message-section p{
+    font-size: 20px;
+}
+.btn{
+    padding: 12px 24px;
+    background: #0984e3;
+    display: inline-block;
+    border-radius: 4px;
+    color: white;
+    opacity:0.7;
+}
+.btn:hover{
+    opacity: 1;
+}
+.main-section{
+    height: 300px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.main{
+    float:left;
+    width: 25%;
+}
+.main-section{
+    border-top: 3px solid #eee;
+}
+.heading h2{
+    font-size: 36px;
+    padding-top: 5px;
+}
+.main-icon h3{
+    color: #4834d4;
+}
+.main-icon p{
+    display: inline-block;
+    width: 80%;
+    font-size: 15px;
+    margin-top: 0;
+}
+.gambar-main{
+    background: #dff9fb;
+    
+  /*landing-page*/
+}
+  /*konten barang */
+  .konten {
+    height: 500px;
+    margin-left: 80px;
+  
+  }
+  .section-title {
+    border-bottom:2px solid #dee7ec;
+    font-size:28px;
+    padding-bottom:15px;
+    margin-bottom:50px;
+  }
+  .contents-item {
+    float: left;
+    margin-right: 20px;
+    
+  }
+  .contents-item p {
+    font-size: 24px;
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+   /*konten barang */
+  .footer {
+    background-color: #000000;
+    color: #fff;
+    height: 120px;
+  }
+  .gambar{
+    Height:240px;
+    width: 280px;
+    cursor: pointer;
+
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 40px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+  }
+
+  
